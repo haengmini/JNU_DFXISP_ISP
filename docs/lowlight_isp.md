@@ -261,7 +261,7 @@ b ≤ 3.97. 두 센서의 a가 **66배**(0.9 vs 60.6, 14-bit) 차이나는 것�
 
 `reports/csynth/rm_lowlight_isp_top_csynth.rpt`
 
-| top | BRAM_18K | DSP | FF | LUT | Est. period |
+| 최상위 | BRAM_18K | DSP | FF | LUT | 추정 주기 |
 |---|---:|---:|---:|---:|---:|
 | **`rm_lowlight_isp_top`** (배포 구성, gamma + denoise 없음) | **1** | **10** | **2,089** | **4,150** | 3.650 ns |
 | `rm_default_isp_top` (v2 일반) | 4 | 28 | 8,794 | 12,659 | 3.650 ns |
@@ -323,7 +323,7 @@ v1 대비 3.05배였다. 최종적으로 0.99배에 도달했지만, **중간 �
 
 | 게이트 | 상태 |
 |---|---|
-| Python golden ↔ C++ bit-exact (`make lowlight-isp-verify`) | ✅ 147 px + C-sim smoke |
+| Python golden ↔ C++ bit-exact (`make lowlight-isp-verify`) | ✅ 147 px + C-sim 스모크 |
 | **binning SNR 이득** (같은 잡음 프레임에서 samecolor spread < subsample, denoise OFF) | ✅ **실측 +5.6~7.1 dB** |
 | BLC (pedestal 이하 → 순흑; 평균 후 감산이라 되살아나지 않음) | ✅ |
 | GAT 플로어 억제 (near-floor 출력 < 40, 중간톤 > 150) | ✅ |

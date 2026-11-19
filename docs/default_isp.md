@@ -84,7 +84,7 @@ BLC/checker 결정은 손대지 않았다. default_ISP를 normal 모드 RM으로
 
 `reports/csynth/rm_default_isp_top_csynth.rpt` — flat-tempdir 우회로 합성.
 
-| top | BRAM_18K | DSP | FF | LUT | Est. period |
+| 최상위 | BRAM_18K | DSP | FF | LUT | 추정 주기 |
 |---|---:|---:|---:|---:|---:|
 | **`rm_default_isp_top`** (default_ISP) | 4 | **28** | **8,794** | **12,659** | 3.650 ns |
 | `rm_normal_tone_top` (RM_NORMAL_TONE) | 4 | 12 | 3,797 | 5,202 | 3.650 ns |
