@@ -50,11 +50,12 @@ python3 blc_sim.py --help
 | 단계 | 저장소 |
 |---|---|
 | ISP만 PC에서 실험 | 이 저장소 |
-| 연구 전체와 결과, 보드 구현 | [dfxisp](https://github.com/haengmini/dfxisp) |
+| 연구 안내와 전체 흐름 | [dfxisp](https://github.com/haengmini/dfxisp) |
+| 단계별 튜토리얼 | [DFXISP-Tutorials](https://github.com/haengmini/DFXISP-Tutorials) |
 | ZCU104와 PetaLinux 기본 익히기 | [JNU_Lab_Petalinux](https://github.com/haengmini/JNU_Lab_Petalinux) |
 | FPGA 설계(HLS, DFX 흐름) | [JNU_DFXISP_FPGA](https://github.com/haengmini/JNU_DFXISP_FPGA) |
 | 물체 검출 모델과 데이터셋 | [JNU_DFXISP_AI](https://github.com/haengmini/JNU_DFXISP_AI) |
 
 ## 출처
 
-[`haengmini/dfxisp`](https://github.com/haengmini/dfxisp)의 `isppipeline/sw`, `isppipeline/hls`에서 ISP 관련 파일만 골라 커밋 기록과 함께 옮겼습니다. 원본과의 차이는 폴더 이름과 빌드용 `Makefile`, 이 README뿐입니다.
+연구 저장소(`haengmini/dfxisp`, 현재는 비공개)의 `isppipeline/sw`, `isppipeline/hls`에서 ISP 관련 파일만 골라 커밋 기록과 함께 옮겼습니다. 원본과의 차이는 폴더 이름과 빌드용 `Makefile`, 이 README뿐입니다.
